@@ -1,0 +1,67 @@
+@import url("cores.css");
+@import url("fonts.css");
+
+header{
+    background-color: var(--cor_Fundo);
+    border-bottom: 5px ridge var(--cor_Texto);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+}
+
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+.text{
+    font-family: 'Kalam', cursive;
+    color: var(--cor_Texto);
+}
+
+.ativado{
+    padding: 5px;
+    border-radius: 12px;
+    border: 5px ridge var(--cor_Texto);
+}
+
+a:hover, a:active{
+    padding: 5px;
+    border-radius: 12px;
+    border: 5px ridge var(--cor_Titulo);
+    color: var(--cor_Titulo);
+}
+
+.icon{
+    padding-right: 5px;
+    color: var(--cor_Texto);
+}
+
+#imgMenu{
+    width: 100px;
+    animation-name: colorirImg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorirImg {
+    0% {
+        filter: drop-shadow(2px 2px 2px var(--cor_Texto));
+    }
+
+    100% {
+        filter: drop-shadow(2px 2px 2px var(--cor_Titulo));
+    }
+}
