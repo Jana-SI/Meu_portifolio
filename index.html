@@ -11,25 +11,51 @@
         
         <!-- Jquery -->
         <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-        <script>
-            $(function(){ 
-                $("#menu").load("components/menu.html");
-                $("#footer").load("components/footer.html"); 
-            });
-        </script>
+        <script type="text/javascript" src="components/scripts/CarregamentoPagesMenu.js"></script>
 
         <!-- icon -->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <script src="https://kit.fontawesome.com/34fd4b8681.js" crossorigin="anonymous"></script>
         
         <!-- styles -->
         <link rel="stylesheet" type="text/css" href="/components/styles/indexStyles.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="/components/styles/menuStyles.css" media="screen" />
         <link rel="stylesheet" type="text/css" href="/components/styles/footerStyles.css" media="screen" />
-
+        <link rel="stylesheet" type="text/css" href="/components/styles/sobreStyles.css" media="screen" />
     </head>
     <body>
-        <div id="menu"></div>
-        <h1>Conteudo</h1>
+        <header id="menu">     
+        <nav>    
+            <img id="imgMenu" src="/components/img/img_menu.png" alt="img_menu"/>
+            <ul>
+                <li>
+                    <a class="ativado" href="pages/home.html">
+                        <span id="tooltip" class="icon" title = "Nice tooltip"><i class="bi bi-house-heart"></i></span>
+                        <span class="text">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="pages/sobre.html">
+                        <span class="icon"><i class="bi bi-person-circle"></i></span>
+                        <span class="text">Sobre</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="pages/habilidades.html">
+                        <span class="icon"><i class="bi bi-person-gear"></i></span>
+                        <span class="text">Habilidades</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="pages/projetos.html">
+                        <span class="icon"><i class="bi bi-person-gear"></i></span>
+                        <span class="text">Projetos</span>
+                    </a>
+                </li>
+            </ul>
+        </nav> 
+    </header>
+        <div id="content"></div>
         <div id="footer"></div>
     </body>
 </html>

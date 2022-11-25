@@ -1,0 +1,23 @@
+@import url("cores.css");
+@import url("fonts.css");
+
+.iconSobre{
+    color: var(--cor_Titulo);
+}
+
+#imgSobre{
+    width: calc(150px + (300 - 150) * ((100vw - 300px) / (1600 - 300)));
+    height: calc(150px + (300 - 150px) * ((100vw - 300px) / (1600 - 300)));animation-name: colorirImg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorirImg {
+    0% {
+        filter: drop-shadow(2px 2px 2px var(--cor_Texto));
+    }
+
+    100% {
+        filter: drop-shadow(2px 2px 2px var(--cor_Titulo));
+    }
+}

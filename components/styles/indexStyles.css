@@ -1,5 +1,81 @@
+@import url("cores.css");
+@import url("fonts.css");
+
 html, body{
     margin: 0;
-    height: 100%;
     background-color: var(--cor_Fundo);
+}
+
+#content{
+    height: 75vh;
+}
+
+@media (min-width: 768px) {
+    
+    #content{
+      overflow-y: hidden !important;
+    }
+  
+}
+
+h1{
+    padding: 20px;
+    font-family: 'Lemonada', cursive;
+    color: var(--cor_Titulo);
+}
+
+p{
+    font-family: 'Kalam', cursive;
+    color: var(--cor_Texto);
+}
+
+#imgHome{
+    width: calc(200px + (450 - 200) * ((100vw - 300px) / (1600 - 300)));
+    height: calc(200px + (450 - 200) * ((100vw - 300px) / (1600 - 300)));    animation-name: colorirImg;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorirImg {
+    0% {
+        filter: drop-shadow(2px 2px 2px var(--cor_Texto));
+    }
+
+    100% {
+        filter: drop-shadow(2px 2px 2px var(--cor_Titulo));
+    }
+}
+
+#textHome{
+    animation-name: colorir;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorir {
+
+    0%,
+    100% {
+        color: var(--cor_Titulo);
+    }
+
+    25% {
+        color: var(--cor_Fundo);
+        text-shadow: -1px -1px 0px var(--cor_Titulo),
+            -1px 1px 0px var(--cor_Titulo),
+            1px -1px 0px var(--cor_Titulo),
+            1px 0px 0px var(--cor_Titulo);
+    }
+
+    50% {
+        color: var(--cor_Texto);
+    }
+
+    75% {
+        color: var(--cor_Fundo);
+        text-shadow: -1px -1px 0px var(--cor_Texto),
+            -1px 1px 0px var(--cor_Texto),
+            1px -1px 0px var(--cor_Texto),
+            1px 0px 0px var(--cor_Texto);
+    }
 }
