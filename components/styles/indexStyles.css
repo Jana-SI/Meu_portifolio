@@ -6,18 +6,6 @@ html, body{
     background-color: var(--cor_Fundo);
 }
 
-#content{
-    height: 75vh;
-}
-
-@media (min-width: 768px) {
-    
-    #content{
-      overflow-y: hidden !important;
-    }
-  
-}
-
 h1{
     padding: 20px;
     font-family: 'Lemonada', cursive;
@@ -78,4 +66,12 @@ p{
             1px -1px 0px var(--cor_Texto),
             1px 0px 0px var(--cor_Texto);
     }
+}
+
+@media (min-width: 992px) {
+    
+    #content .row{
+        height: 75vh;
+    }
+  
 }

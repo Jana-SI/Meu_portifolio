@@ -1,0 +1,23 @@
+@import url("cores.css");
+@import url("fonts.css");
+
+button {
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px;
+    color: var(--cor_Texto);
+    border-radius: 12px;
+    border: 5px ridge var(--cor_Texto);
+}
+
+.btn:hover{
+    color: var(--cor_Titulo) !important;
+    border-radius: 12px;
+    border: 5px ridge var(--cor_Titulo);
+}
+

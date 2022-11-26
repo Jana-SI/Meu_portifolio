@@ -21,3 +21,9 @@
         filter: drop-shadow(2px 2px 2px var(--cor_Titulo));
     }
 }
+
+@media (max-width: 576px) {
+    #imgSobre{
+        padding-top: 10px;
+    }
+}

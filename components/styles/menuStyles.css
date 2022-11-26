@@ -8,11 +8,11 @@
 }
 
 @media (max-width: 576px) {
-    .text{
+    span.text{
         display: none;
     }
-    .icon{
-        padding-right: 0px;
+    span.icon{
+        padding-right: 0px !important;
     }
 }
 
