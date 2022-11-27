@@ -21,3 +21,152 @@ button {
     border: 5px ridge var(--cor_Titulo);
 }
 
+.ativadoHabilidades{
+    background-color: var(--cor_Titulo);
+    color: var(--cor_Fundo) !important;
+    border-radius: 12px;
+    border: 5px ridge var(--cor_Fundo);
+}
+
+#iconHtml5{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/html5-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconHtml5{
+    background-image: url("/components/icones/html5-verde.png") !important;
+}
+
+#iconCss3{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/css3-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconCss3{
+    background-image: url("/components/icones/css3-verde.png") !important;
+}
+
+#iconJavascript{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/javascript-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconJavascript{
+    background-image: url("/components/icones/javascript-verde.png") !important;
+}
+
+#iconJquery{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/jquery-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconJquery{
+    background-image: url("/components/icones/jquery-verde.png") !important;
+}
+
+#iconBootstrap{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/bootstrap-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconBootstrap{
+    background-image: url("/components/icones/bootstrap-verde.png") !important;
+}
+
+#iconReact{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/react-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconReact{
+    background-image: url("/components/icones/react-verde.png") !important;
+}
+
+#iconVue{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/vuejs-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconVue{
+    background-image: url("/components/icones/vuejs-verde.png") !important;
+}
+
+#iconPostgresql{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/postgresql-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconPostgresql{
+    background-image: url("/components/icones/postgresql-verde.png") !important;
+}
+
+#iconPhp{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/php-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconPhp{
+    background-image: url("/components/icones/php-verde.png") !important;
+}
+
+#iconJoomla{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/joomla-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconJoomla{
+    background-image: url("/components/icones/joomla-verde.png") !important;
+}
+
+#iconWordpress{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/wordpress-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconWordpress{
+    background-image: url("/components/icones/wordpress-verde.png") !important;
+}
+
+#iconGit{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/git-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconGit{
+    background-image: url("/components/icones/git-verde.png") !important;
+}
+
+#iconGithub{
+    width: 32px;
+    height: 32px;
+    background-image: url("/components/icones/github-rosa.png");
+    background-repeat: no-repeat;
+}
+
+.btn:hover #iconGithub{
+    background-image: url("/components/icones/github-verde.png") !important;
+}

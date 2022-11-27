@@ -1,0 +1,13 @@
+$("#textHtml5").hide();
+$("#textCss3").hide();
+$("#textJavaScript").hide();
+$("#textJquery").hide();
+$("#textBootstrap").hide();
+$("#textReact").hide();
+$("#textVue").hide();
+$("#textPostgresql").hide();
+$("#textPhp").hide();
+$("#textJoomla").hide();
+$("#textWordpress").hide();
+$("#textGit").hide();
+$("#textGithub").hide();
