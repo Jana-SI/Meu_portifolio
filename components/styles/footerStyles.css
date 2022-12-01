@@ -4,7 +4,7 @@
 footer{
     background-color: var(--cor_Fundo);
     border-top: 5px ridge var(--cor_Titulo);
-    padding: 20px;
+    padding: 10px;
 }
 
 #textIcon{

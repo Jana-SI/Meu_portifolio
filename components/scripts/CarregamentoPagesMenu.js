@@ -9,5 +9,13 @@ $(function(){
     });
     
     $("#footer").load("components/footer.html"); 
-    $("#tooltip").tooltip();
+
+    var tam = $(window).width();
+
+    if(tam < 577){ 
+        $("#tooltipHome").tooltip();
+        $("#tooltipSobre").tooltip();
+        $("#tooltipHabilidades").tooltip();
+        $("#tooltipProjetos").tooltip();
+    }
 });
