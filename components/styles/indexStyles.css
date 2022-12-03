@@ -70,22 +70,27 @@ p{
 
 @media (min-width: 992px) {
     
-    #content .row{
+    #content #rowP{
         height: 74vh;
     }
   
 }
 
-#CV{  
+#CV{ 
+    margin: 10px;
+    padding: 10px; 
     background-color: var(--cor_Titulo) !important;
     color: var(--cor_Fundo);
     border-radius: 12px;
     border: 5px ridge var(--cor_Fundo);
 }
 #CL{
-    color: var(--cor_Texto);
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--cor_Texto) !important;
+    color: var(--cor_Fundo);
     border-radius: 12px;
-    border: 5px ridge var(--cor_Texto);
+    border: 5px ridge var(--cor_Fundo);
 }
 
 #CV:hover, #CL:hover {
@@ -93,4 +98,11 @@ p{
     color: var(--cor_Titulo) !important;
     border-radius: 12px;
     border: 5px ridge var(--cor_Titulo);
+}
+
+#CL:hover {
+    background-color: var(--cor_Fundo) !important;
+    color: var(--cor_Texto) !important;
+    border-radius: 12px;
+    border: 5px ridge var(--cor_Texto);
 }

@@ -1,0 +1,33 @@
+@import url("cores.css");
+@import url("fonts.css");
+
+#ampulheta{
+    width: 90px;
+}
+
+.card{
+    width: 150px;
+    height: 150px;
+    margin:10px;
+    padding: 10px;
+    background-color: var(--cor_Titulo);
+    color: var(--cor_Fundo);
+    border-radius: 12px;
+    border: 5px ridge var(--cor_Fundo);
+}
+
+.card-title{
+    text-align: center;
+}
+
+#div1, #div2, #div3, #div4, #div5, #div6{
+    text-align: center;
+    font-size:48px;
+    animation: girar 4s linear infinite;
+}
+
+@keyframes girar {
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -1,28 +1,42 @@
 @import url("cores.css");
 @import url("fonts.css");
 
-button {
-    all: unset;
-    cursor: pointer;
-    outline: revert;
-}
-
-.btn{
+#html5, 
+#css3,
+#javascript,
+#jquery,
+#bootstrap,
+#react,
+#vue,
+#postgresql,
+#php,
+#joomla,
+#wordpress,
+#git,
+#github{
     margin: 10px;
     padding: 10px;
-    color: var(--cor_Texto);
+    background-color: var(--cor_Texto) !important;
+    color: var(--cor_Fundo);
     border-radius: 12px;
-    border: 5px ridge var(--cor_Texto);
+    border: 5px ridge var(--cor_Fundo);
 }
 
-.btn:hover{
-    color: var(--cor_Titulo) !important;
-    border-radius: 12px;
-    border: 5px ridge var(--cor_Titulo);
-}
-
-.ativadoHabilidades{
-    background-color: var(--cor_Titulo);
+#html5:hover,
+#css3:hover,
+#javascript:hover,
+#Jquery:hover,
+#bootstrap:hover,
+#react:hover,
+#vue:hover,
+#postgresql:hover,
+#php:hover,
+#joomla:hover,
+#wordpress:hover,
+#git:hover,
+#github:hover
+{
+    background-color: var(--cor_Titulo) !important;
     color: var(--cor_Fundo) !important;
     border-radius: 12px;
     border: 5px ridge var(--cor_Fundo);
@@ -31,142 +45,92 @@ button {
 #iconHtml5{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/html5-rosa.png");
+    background-image: url("/components/icones/html5-roxo.png");
     background-repeat: no-repeat;
-}
-
-.btn:hover #iconHtml5{
-    background-image: url("/components/icones/html5-verde.png") !important;
 }
 
 #iconCss3{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/css3-rosa.png");
+    background-image: url("/components/icones/css3-roxo.png");
     background-repeat: no-repeat;
-}
-
-.btn:hover #iconCss3{
-    background-image: url("/components/icones/css3-verde.png") !important;
 }
 
 #iconJavascript{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/javascript-rosa.png");
+    background-image: url("/components/icones/javascript-roxo.png");
     background-repeat: no-repeat;
-}
-
-.btn:hover #iconJavascript{
-    background-image: url("/components/icones/javascript-verde.png") !important;
 }
 
 #iconJquery{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/jquery-rosa.png");
+    background-image: url("/components/icones/jquery-roxo.png");
     background-repeat: no-repeat;
-}
-
-.btn:hover #iconJquery{
-    background-image: url("/components/icones/jquery-verde.png") !important;
 }
 
 #iconBootstrap{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/bootstrap-rosa.png");
+    background-image: url("/components/icones/bootstrap-roxo.png");
     background-repeat: no-repeat;
-}
-
-.btn:hover #iconBootstrap{
-    background-image: url("/components/icones/bootstrap-verde.png") !important;
 }
 
 #iconReact{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/react-rosa.png");
+    background-image: url("/components/icones/react-roxo.png");
     background-repeat: no-repeat;
 }
 
-.btn:hover #iconReact{
-    background-image: url("/components/icones/react-verde.png") !important;
-}
 
 #iconVue{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/vuejs-rosa.png");
+    background-image: url("/components/icones/vuejs-roxo.png");
     background-repeat: no-repeat;
 }
 
-.btn:hover #iconVue{
-    background-image: url("/components/icones/vuejs-verde.png") !important;
-}
 
 #iconPostgresql{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/postgresql-rosa.png");
+    background-image: url("/components/icones/postgresql-roxo.png");
     background-repeat: no-repeat;
-}
-
-.btn:hover #iconPostgresql{
-    background-image: url("/components/icones/postgresql-verde.png") !important;
 }
 
 #iconPhp{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/php-rosa.png");
+    background-image: url("/components/icones/php-roxo.png");
     background-repeat: no-repeat;
-}
-
-.btn:hover #iconPhp{
-    background-image: url("/components/icones/php-verde.png") !important;
 }
 
 #iconJoomla{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/joomla-rosa.png");
+    background-image: url("/components/icones/joomla-roxo.png");
     background-repeat: no-repeat;
-}
-
-.btn:hover #iconJoomla{
-    background-image: url("/components/icones/joomla-verde.png") !important;
 }
 
 #iconWordpress{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/wordpress-rosa.png");
+    background-image: url("/components/icones/wordpress-roxo.png");
     background-repeat: no-repeat;
-}
-
-.btn:hover #iconWordpress{
-    background-image: url("/components/icones/wordpress-verde.png") !important;
 }
 
 #iconGit{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/git-rosa.png");
+    background-image: url("/components/icones/git-roxo.png");
     background-repeat: no-repeat;
-}
-
-.btn:hover #iconGit{
-    background-image: url("/components/icones/git-verde.png") !important;
 }
 
 #iconGithub{
     width: 32px;
     height: 32px;
-    background-image: url("/components/icones/github-rosa.png");
+    background-image: url("/components/icones/github-roxo.png");
     background-repeat: no-repeat;
-}
-
-.btn:hover #iconGithub{
-    background-image: url("/components/icones/github-verde.png") !important;
 }
