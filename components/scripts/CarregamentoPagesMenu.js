@@ -1,4 +1,5 @@
 $(function(){ 
+
     $("#content").load("pages/home.html");
 
      $('a').on('click', function (e) {

@@ -37,7 +37,7 @@ li{
     padding: 10px;
 }
 
-a{
+li a{
     padding: 10px;
     text-decoration: none;
     color: var(--cor_Texto);
@@ -52,7 +52,7 @@ a{
     border: 5px ridge var(--cor_Texto);
 }
 
-a:hover, a:active{
+li a:hover, li a:active{
     border-radius: 12px;
     border: 5px ridge var(--cor_Titulo);
     color: var(--cor_Titulo);

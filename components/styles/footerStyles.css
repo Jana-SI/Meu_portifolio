@@ -7,7 +7,7 @@ footer{
     padding: 10px;
 }
 
-#textIcon{
+#textIcon a, #textIcon{
     font-family: 'Kalam', cursive;
     color: var(--cor_Titulo);
 }
@@ -16,6 +16,6 @@ footer{
     padding-right: 5px;
 }
 
-#textIcon:hover{
+#textIcon:hover a, #textIcon:hover{
     color: var(--cor_Texto);
 }
