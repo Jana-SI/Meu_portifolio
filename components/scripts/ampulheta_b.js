@@ -1,6 +1,4 @@
 function hourglassB() {
-  
-    b = document.getElementById("div2");
 
     b.innerHTML = "&#xf252;";
 
@@ -22,5 +20,10 @@ function hourglassB() {
         b.innerHTML = "&#xf251;";
       }, 4000);
   }
-  hourglassB();
-  setInterval(hourglassB, 5000);
+  
+  b = document.getElementById("div2");
+
+  if (b !== null) {
+    hourglassB();
+    setInterval(hourglassB, 5000);
+  }

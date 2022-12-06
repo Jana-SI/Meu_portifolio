@@ -27,20 +27,11 @@ nav{
     align-items: center;
 }
 
-ul{
-    display: flex;
-    list-style-type: none;
-    margin: 0px;
-}
-
-li{
-    padding: 10px;
-}
-
 li a{
     padding: 10px;
     text-decoration: none;
     color: var(--cor_Texto);
+    border: 5px ridge transparent;
 }
 
 .text{

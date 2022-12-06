@@ -68,7 +68,7 @@ p{
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 800px) {
     
     #content #rowP{
         height: 74vh;
@@ -78,44 +78,44 @@ p{
 
 #CV{ 
     margin: 10px;
-    padding: 10px; 
-    background-color: var(--cor_Titulo) !important;
-    color: var(--cor_Fundo);
+    padding: 10px;
+    background-color: var(--cor_Fundo) !important;
     border-radius: 12px;
-    border: 5px ridge var(--cor_Fundo);
+    border: 5px ridge var(--cor_Titulo);
 }
 #CL{
     margin: 10px;
     padding: 10px;
-    background-color: var(--cor_Texto) !important;
-    color: var(--cor_Fundo);
-    border-radius: 12px;
-    border: 5px ridge var(--cor_Fundo);
-}
-
-#CV:hover{
     background-color: var(--cor_Fundo) !important;
-    color: var(--cor_Titulo) !important;
-    border-radius: 12px;
-    border: 5px ridge var(--cor_Titulo);
-}
-
-#CL:hover{
-    background-color: var(--cor_Fundo) !important;
-    color: var(--cor_Texto) !important;
     border-radius: 12px;
     border: 5px ridge var(--cor_Texto);
 }
 
-#CV a, #CL a{
-    text-decoration: none;
-    color: var(--cor_Fundo);
+#CV:hover{
+    background-color: var(--cor_Titulo) !important;
+    border-radius: 12px;
+    border: 5px ridge var(--cor_Fundo);
 }
 
-#CV:hover a{
+#CL:hover{
+    background-color: var(--cor_Texto) !important;
+    border-radius: 12px;
+    border: 5px ridge var(--cor_Fundo);
+}
+
+#CV a, #CL a{
+    text-decoration: none;
+}
+
+#CV a{
     color: var(--cor_Titulo) !important;
 }
 
-#CL:hover a{
+#CL a{
     color: var(--cor_Texto) !important;
+}
+
+#CV:hover a, #CL:hover a{
+    text-decoration: none;
+    color: var(--cor_Fundo) !important;
 }
