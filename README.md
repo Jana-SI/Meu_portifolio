@@ -1,20 +1,14 @@
 # 🎀 Meu Portfólio 🎀
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Jana-SI/meu_portifolio?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/Jana-SI/meu_portifolio?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Jana-SI/meu_portifolio?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Jana-SI/meu_portifolio?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Jana-SI/meu_portifolio?style=for-the-badge)
-
 ![Resultado final do portifolio](/components/img/site.png)
 
 ## 🎨 Seções
 
 O site é composto por quatro seções:
 
-🏠 **Home:** Apresentação do site;
-👩‍💻 **Sobre:** Um pouco sobre a autora;
-📚 **Habilidades:** Tecnologias utilizadas e que pretendo utilizar futuramente;
+🏠 **Home:** Apresentação do site;<br>
+👩‍💻 **Sobre:** Um pouco sobre a autora;<br>
+📚 **Habilidades:** Tecnologias utilizadas e que pretendo utilizar futuramente;<br>
 💡 **Projetos:** Seção de projetos concluídos até o momento.
 
 ---
