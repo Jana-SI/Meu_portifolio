@@ -1,0 +1,13 @@
+$("#tooltipHtml5").tooltip();
+$("#tooltipCss3").tooltip();
+$("#tooltipJavaScript").tooltip();
+$("#Jquery").tooltip();
+$("#Bootstrap").tooltip();
+$("#React").tooltip();
+$("#Vue").tooltip();
+$("#Postgresql").tooltip();
+$("#Php").tooltip();
+$("#Joomla").tooltip();
+$("#Wordpress").tooltip();
+$("#Git").tooltip();
+$("#Github").tooltip();
