@@ -45,42 +45,42 @@
 #iconHtml5{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/html5-roxo.png");
+    background-image: url("../icones/html5-roxo.png");
     background-repeat: no-repeat;
 }
 
 #iconCss3{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/css3-roxo.png");
+    background-image: url("../icones/css3-roxo.png");
     background-repeat: no-repeat;
 }
 
 #iconJavascript{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/javascript-roxo.png");
+    background-image: url("../icones/javascript-roxo.png");
     background-repeat: no-repeat;
 }
 
 #iconJquery{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/jquery-roxo.png");
+    background-image: url("../icones/jquery-roxo.png");
     background-repeat: no-repeat;
 }
 
 #iconBootstrap{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/bootstrap-roxo.png");
+    background-image: url("../icones/bootstrap-roxo.png");
     background-repeat: no-repeat;
 }
 
 #iconReact{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/react-roxo.png");
+    background-image: url("../icones/react-roxo.png");
     background-repeat: no-repeat;
 }
 
@@ -88,7 +88,7 @@
 #iconVue{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/vuejs-roxo.png");
+    background-image: url("../icones/vuejs-roxo.png");
     background-repeat: no-repeat;
 }
 
@@ -96,41 +96,41 @@
 #iconPostgresql{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/postgresql-roxo.png");
+    background-image: url("../icones/postgresql-roxo.png");
     background-repeat: no-repeat;
 }
 
 #iconPhp{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/php-roxo.png");
+    background-image: url("../icones/php-roxo.png");
     background-repeat: no-repeat;
 }
 
 #iconJoomla{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/joomla-roxo.png");
+    background-image: url("../icones/joomla-roxo.png");
     background-repeat: no-repeat;
 }
 
 #iconWordpress{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/wordpress-roxo.png");
+    background-image: url("../icones/wordpress-roxo.png");
     background-repeat: no-repeat;
 }
 
 #iconGit{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/git-roxo.png");
+    background-image: url("../icones/git-roxo.png");
     background-repeat: no-repeat;
 }
 
 #iconGithub{
     width: 32px;
     height: 32px;
-    background-image: url("components/icones/github-roxo.png");
+    background-image: url("../icones/github-roxo.png");
     background-repeat: no-repeat;
 }
