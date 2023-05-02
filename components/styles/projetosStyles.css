@@ -5,11 +5,14 @@
     width: 90px;
 }
 
-.card{
+#card{
     width: 150px;
     height: 150px;
     margin:10px;
     padding: 10px;
+}
+
+#card, .card{
     background-color: var(--cor_Titulo);
     color: var(--cor_Fundo);
     border-radius: 12px;

@@ -11,3 +11,5 @@ $("#Joomla").tooltip();
 $("#Wordpress").tooltip();
 $("#Git").tooltip();
 $("#Github").tooltip();
+$("#flask").tooltip();
+$("#python").tooltip();
