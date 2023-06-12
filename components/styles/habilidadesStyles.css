@@ -13,7 +13,7 @@
 #joomla,
 #wordpress,
 #git,
-#github, #flask, #python{
+#github, #flask, #python, #figma{
     margin: 10px;
     padding: 10px;
     background-color: var(--cor_Texto) !important;
@@ -146,5 +146,12 @@
     width: 32px;
     height: 32px;
     background-image: url("../icones/python-roxo.png");
+    background-repeat: no-repeat;
+}
+
+#iconFigma{
+    width: 32px;
+    height: 32px;
+    background-image: url("../icones/icons8-figma-32.png");
     background-repeat: no-repeat;
 }
