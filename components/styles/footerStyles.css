@@ -7,15 +7,15 @@ footer{
     padding: 10px;
 }
 
-#textIcon a, #textIcon{
+/* #textIcon a, #textIcon{
     font-family: 'Kalam', cursive;
     color: var(--cor_Titulo);
-}
+} */
 
-#textIcon i{
+/* #textIcon i{
     padding-right: 5px;
 }
 
 #textIcon:hover a, #textIcon:hover{
     color: var(--cor_Texto);
-}
+} */

@@ -2,7 +2,7 @@
 @import url("fonts.css");
 
 .iconSobre{
-    color: var(--cor_Titulo);
+    color: var(--cor_Fundo);
 }
 
 #imgSobre{
