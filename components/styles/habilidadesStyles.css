@@ -1,6 +1,28 @@
 @import url("cores.css");
 @import url("fonts.css");
 
+#habilidades .card{
+    width: 160px;
+    height: 160px;
+    background-color: var(--cor_Texto) !important;
+}
+
+#habilidades #img_width_height{
+    width: 80px;
+    height: 80px;
+}
+
+
+#habilidades #img_width{
+    width: 80px;
+    height: auto;
+}
+
+#habilidades #img_height{
+    width: auto;
+    height: 80px;
+}
+
 #html5, 
 #css3,
 #javascript,

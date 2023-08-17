@@ -2,6 +2,9 @@
 @import url("fonts.css");
 
 html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
     margin: 0;
     background-image: url('../img/fundo.jpg');
 }
@@ -10,12 +13,14 @@ html, body{
 @media (min-width: 768px) {
     
     #content{
-        height: 74vh;
+        height: 85vh;
     }
   
 }
 
 h1{
+    text-align: center;
+    font-size:50px;
     padding: 20px;
     font-family: 'Lemonada', cursive;
     color: var(--cor_Titulo);
@@ -24,6 +29,7 @@ h1{
 }
 
 p{
+    font-size: 20px;
     font-family: 'Kalam', cursive;
     color: var(--cor_Fundo);
 }
@@ -107,6 +113,7 @@ p{
 }
 
 #CV a, #CL a{
+    font-size: 20px;
     text-decoration: none;
 }
 

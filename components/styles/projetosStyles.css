@@ -1,18 +1,7 @@
 @import url("cores.css");
 @import url("fonts.css");
 
-#ampulheta{
-    width: 90px;
-}
-
-#card{
-    width: 150px;
-    height: 150px;
-    margin:10px;
-    padding: 10px;
-}
-
-#card, .card{
+#cards .card{
     background-color: var(--cor_Titulo);
     color: var(--cor_Fundo);
     border-radius: 12px;
@@ -24,8 +13,21 @@
     border-bottom: 5px ridge var(--cor_Fundo);
 }
 
-#div1, #div2, #div3, #div4, #div5, #div6{
-    text-align: center;
-    font-size:48px;
-    
+#cards ul{
+    margin-bottom: 16px;
+}
+
+#cards li{
+    background-color: var(--cor_Texto);
+    color: var(--cor_Fundo);
+}
+
+#lupa{
+    margin: 16px;
+    font-size:50px;  
+}
+
+#cards #img_width_height{
+    width: 20px;
+    height: 20px;
 }

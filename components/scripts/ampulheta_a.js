@@ -20,7 +20,7 @@ function hourglassA() {
   }, 5000);
 }
 
-a = document.getElementById("div1");
+a = document.getElementById("lupa");
 
 if (a !== null) {
   hourglassA();

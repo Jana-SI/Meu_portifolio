@@ -19,6 +19,7 @@
 header{
     background-color: var(--cor_Fundo);
     border-bottom: 5px ridge var(--cor_Texto);
+    padding-right: 16px;
 }
 
 nav{
@@ -32,6 +33,7 @@ li a{
     text-decoration: none;
     color: var(--cor_Texto);
     border: 5px ridge transparent;
+    font-size: 15px;
 }
 
 .text{

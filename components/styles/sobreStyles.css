@@ -27,3 +27,10 @@
         padding-top: 10px;
     }
 }
+
+.card{
+    background-color: var(--cor_Titulo);
+    color: var(--cor_Fundo);
+    border-radius: 12px;
+    border: 5px ridge var(--cor_Fundo);
+}
