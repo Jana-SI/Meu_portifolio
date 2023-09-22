@@ -6,19 +6,19 @@
     padding: 16px;
 }
 
-#cards .card {
+#cards .card, #cards .modal-content {
     background-color: var(--cor_Titulo);
     color: var(--cor_Fundo);
     border-radius: 12px;
     border: 5px ridge var(--cor_Fundo);
 }
 
-#cards .card-title {
+#cards .card-header, #cards .modal-header {
     text-align: center;
     border-bottom: 5px ridge var(--cor_Fundo);
 }
 
-#cards .card-footer{
+#cards .card-footer, #cards .modal-footer{
     background-color: var(--cor_Texto);
     color: var(--cor_Fundo);
     border-top: 5px ridge var(--cor_Fundo);
@@ -65,4 +65,8 @@
 
 #cards button:hover{
     background-color: var(--cor_Texto);
+}
+
+#cards hr{
+    border-bottom: 5px ridge var(--cor_Fundo);   
 }
