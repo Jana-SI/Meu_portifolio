@@ -3,7 +3,6 @@
 
 <head>
     <script type="text/javascript" src="components/scripts/ampulheta_a.js"></script>
-    <script type="text/javascript" src="components/scripts/toggleDescricao.js"></script>
     <!--icon-->
     <link rel="icon" type="image/x-icon" href="components/img/favicon.ico">
 </head>
@@ -11,131 +10,271 @@
 <body>
     <div class="col-12 col-sm-12 col-md-12 col-lg-12" id="cards">
         <h1>Projetos</h1>
-        <div class="row row-cols-1 row-col-sm-2 row-cols-md-3 row-col-lg-3 row-col-xl-3 row-col-xxl-3 g-4">
+
+        <div class="row row-cols-1 row-col-sm-2 row-cols-md-4 row-col-lg-4 row-col-xl-4 row-col-xxl-4 g-4">
             <!-- PetLovers -->
             <div class="col">
                 <div class="card">
                     <div class="card-header">
                         <h5 class="card-title">🐱Pet Lovers CRUD🐶</h5>
                     </div>
-                    <img src="components/img/printPetLovers.png" class="card-img" alt="print_pet_lovers_crud">
-                    <div class="card-body">
-                        <div class="card-text-more" style="display: none;">
-                            <h5 class="card-title">Seções</h5>
+                    <img src="components/img/projetos/printPetLovers.png" alt="print_pet_lovers_crud">
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#PetLoversCRUD">
+                            <span class="fas fa-expand"></span> Ver Mais
+                        </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="PetLoversCRUD" tabindex="-1" aria-labelledby="PetLoversCRUDLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                            <div class="modal-content">
+                                <!-- Conteúdo do modal -->
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="PetLoversCRUDLabel">🐱Pet Lovers CRUD🐶</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="components/img/projetos/printPetLovers.png" class="card-img"
+                                        alt="print_pet_lovers_crud">
+                                    <div class="card-body">
 
-                            <p class="card-text text-left">O site é composto por 3 seções:</p>
+                                        <h5 class="card-title">Seções</h5>
 
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">👤 Clientes: cadastrar, listar, pesquisar cliente
-                                    especifico,
-                                    deletar e atualizar (nome e telefone do cliente pesquisado);</li>
+                                        <p class="card-text text-left">O site é composto por 3 seções:</p>
 
-                                <li class="list-group-item">🐰 Pets: cadastrar, listar, pesquisar pet especifico,
-                                    deletar,
-                                    atualizar (nome, tipo, raça e data de nascimento do cliente pesquisado) e associar a
-                                    mais um dono;</li>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">👤 Clientes: cadastrar, listar, pesquisar
+                                                cliente
+                                                especifico,
+                                                deletar e atualizar (nome e telefone do cliente pesquisado);</li>
 
-                                <li class="list-group-item">🩺 Consulta: agendar, listar, pesquisar historico de
-                                    consultas
-                                    do pet, consultas do dia, proximas consultas, historico total de consultas, deletar
-                                    e
-                                    atualizar (data e hora das próximas consultas).</li>
-                            </ul>
+                                            <li class="list-group-item">🐰 Pets: cadastrar, listar, pesquisar pet
+                                                especifico,
+                                                deletar,
+                                                atualizar (nome, tipo, raça e data de nascimento do cliente pesquisado)
+                                                e associar a
+                                                mais um dono;</li>
 
-                            <p class="card-text">Tecnologias utilizadas neste site:</p>
-                            <div class="text-center">
-                                <img
-                                    src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-                                <img
-                                    src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-                                <img
-                                    src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-                                <img
-                                    src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-                                <img
-                                    src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-                                <img
-                                    src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+                                            <li class="list-group-item">🩺 Consulta: agendar, listar, pesquisar
+                                                historico de
+                                                consultas
+                                                do pet, consultas do dia, proximas consultas, historico total de
+                                                consultas, deletar
+                                                e
+                                                atualizar (data e hora das próximas consultas).</li>
+                                        </ul>
+
+                                        <p class="card-text">Tecnologias utilizadas neste site:</p>
+                                        <div class="text-center">
+                                            <img
+                                                src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+                                            <img
+                                                src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+                                            <img
+                                                src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+                                            <img
+                                                src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+                                            <img
+                                                src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
+                                            <img
+                                                src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <h6 class="card-subtitle">
+                                        <img id="img_width_height" src="components/img/habilidades/github.png"
+                                            class="card-img mx-auto" alt="icone_github"> Repositório: <a
+                                            class="card-link" href="https://github.com/Jana-SI/pet_lovers_crud">clique
+                                            aqui</a>
+                                    </h6>
+                                </div>
                             </div>
                         </div>
-
-                        <button class="btn btn-primary btn-sm mt-3" onclick="toggleDescricao(this)">
-                            <span class="fas fa-plus"></span> Ver Mais
-                        </button>
-
-                    </div>
-                    <div class="card-footer">
-                        <h6 class="card-subtitle">
-                            <img id="img_width_height" src="components/img/github.png" class="card-img mx-auto"
-                                alt="icone_github"> Repositório: <a class="card-link"
-                                href="https://github.com/Jana-SI/pet_lovers_crud">clique aqui</a>
-                        </h6>
                     </div>
                 </div>
             </div>
+
             <!-- Cost -->
             <div class="col">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="card-title">🪙 Projeto Cost - Curso React react <img
+                        <h5 class="card-title">🪙 Projeto Cost<br>Curso React react <img
                                 src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
                         </h5>
                     </div>
-                    <img class="card-img" src="components/img/printCost.png">
-                    <div class="card-body">
-                        <p class="card-text">Projeto desenvolvido durante as aulas do curso de react (aula 16.5 ate 37)
-                        </p>
+                    <img src="components/img/projetos/printCost.png" alt="print_cost">
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#Cost">
+                            <span class="fas fa-expand"></span> Ver Mais
+                        </button>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="Cost" tabindex="-1" aria-labelledby="CostLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                            <div class="modal-content">
+                                <!-- Conteúdo do modal -->
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="CostLabel">🪙 Projeto Cost<br>Curso React react <img
+                                            src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="components/img/projetos/printCost.png" class="card-img"
+                                        alt="print_cost">
+                                    <div class="card-body">
+                                        <p class="card-text">Projeto desenvolvido durante as aulas do curso de react
+                                            (aula 16.5 ate 37)
+                                        </p>
 
-                        <div class="card-text-more" style="display: none;">
+                                        <h5 class="card-title">É composto por 2 secões:</h5>
+                                        <hr>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">🏠 Home: tela de boas vindas, criar projeto;
+                                            </li>
 
-                            <h5 class="card-title">É composto por 2 secões:</h5>
+                                            <li class="list-group-item">⚒️ Projetos: exibir meus projetos, criar
+                                                projeto, editar
+                                                projeto
+                                                e excluir projeto;
 
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">🏠 Home: tela de boas vindas, criar projeto;</li>
+                                                <div class="ms-2 me-auto">
+                                                    ✏️ Editar projeto: exibir detalhes do projeto (categoria,
+                                                    total de orçamento, total utilizado, restante do orçamento),
+                                                    editar projeto,
+                                                    adicionar serviços, exibir serviços (nome do serviço, custo
+                                                    total e a descrição)
+                                                    e
+                                                    excluir serviço;
+                                                </div>
 
-                                <li class="list-group-item">⚒️ Projetos: exibir meus projetos, criar projeto, editar projeto
-                                    e excluir projeto;
+                                            </li>
 
-                                    <div class="ms-2 me-auto">
-                                        ✏️ Editar projeto: exibir detalhes do projeto (categoria,
-                                        total de orçamento, total utilizado, restante do orçamento), editar projeto,
-                                        adicionar serviços, exibir serviços (nome do serviço, custo total e a descrição) e
-                                        excluir serviço;
+                                            <li class="list-group-item">🏢 Empresa e 📞 Contato: criados para testar
+                                                funcionalidade
+                                                dos
+                                                routes.</li>
+                                        </ul>
+
+                                        <h5 class="card-title">⚙️ Rodar projeto</h5>
+                                        <hr>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">npm start</li>
+                                            <li class="list-group-item">npm run backend</li>
+                                        </ul>
                                     </div>
-
-                                </li>
-
-                                <li class="list-group-item">🏢 Empresa e 📞 Contato: criados para testar funcionalidade dos
-                                    routes.</li>
-                            </ul>
-
-                            <h5 class="card-title">⚙️ Rodar projeto</h5>
-
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">npm start</li>
-                                <li class="list-group-item">npm run backend</li>
-                            </ul>
-                        
+                                </div>
+                                <div class="modal-footer">
+                                    <h6 class="card-subtitle">💻 Curso: <a class="card-link"
+                                            href="https://www.youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO">Curso
+                                            de
+                                            React - Matheus Battisti - Hora de Coda</a></h6><br>
+                                    <h6 class="card-subtitle">
+                                        <img id="img_width_height" src="components/img/habilidades/github.png"
+                                            class="card-img mx-auto" alt="icone_github"> Repositório: <a
+                                            class="card-link"
+                                            href="https://github.com/Jana-SI/costs_projeto_curso_react">clique aqui</a>
+                                    </h6>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
 
-                        <button class="btn btn-sm mt-3" onclick="toggleDescricao(this)">
+            <!-- HDC EVentos -->
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">🗓️ HDC Eventos<br>Curso Laravel <img
+                                src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+                        </h5>
+                    </div>
+                    <img src="components/img/projetos/printHDCEventos.jpg" alt="print_HDC_eventos">
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-sm mt-3" data-bs-toggle="modal"
+                            data-bs-target="#HDCEVentos">
                             <span class="fas fa-plus"></span> Ver Mais
                         </button>
 
                     </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="HDCEVentos" tabindex="-1" aria-labelledby="HDCEVentosLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                            <div class="modal-content">
+                                <!-- Conteúdo do modal -->
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="HDCEVentosLabel">🗓️ HDC Eventos<br>Curso Laravel <img
+                                        src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" /></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="components/img/projetos/printPetLovers.png" class="card-img"
+                                        alt="print_pet_lovers_crud">
+                                    <div class="card-body">
+                                        <p class="card-text">Projeto desenvolvido durante as aulas do curso de laravel
+                                            (aula 13 até 31)
+                                        </p>
+                                        <h5 class="card-title">É composto por 3 secões:</h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">🗓️ Eventos: busca de eventos, exibe próximos
+                                                eventos;</li>
 
-                    <div class="card-footer">
-                        <h6 class="card-subtitle">💻 Curso: <a class="card-link"
-                                href="https://www.youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO">Curso de
-                                React - Matheus Battisti - Hora de Coda</a></h6><br>
-                        <h6 class="card-subtitle">
-                            <img id="img_width_height" src="components/img/github.png" class="card-img mx-auto"
-                                alt="icone_github"> Repositório: <a class="card-link"
-                                href="https://github.com/Jana-SI/costs_projeto_curso_react">clique aqui</a>
-                        </h6>
+                                            <li class="list-group-item">
+                                                📝 Criar Eventos: se estiver logado, cria eventos;
+                                            </li>
+
+                                            <li class="list-group-item">🗒️ Meus Eventos: exibe 2 tabelas:
+
+                                                <div class="ms-2 me-auto">
+
+                                                    Na primeira lista os eventos organizados pelo usuário, podendo
+                                                    editar e deletar;
+                                                </div>
+                                                <div class="ms-2 me-auto">
+                                                    Na segunda os eventos que o usuário está como participante, podendo
+                                                    apenas
+                                                    acompanhar e sair do evento.
+                                                </div>
+
+                                            </li>
+                                        </ul>
+                                        <h5 class="card-title">⚙️ Rodar projeto</h5>
+
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">php artisan serve</li>
+                                            <li class="list-group-item">npm run dev</li>
+                                            <li class="list-group-item">xampp</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <h6 class="card-subtitle">💻 Curso: <a class="card-link"
+                                            href="https://www.youtube.com/playlist?list=PLnDvRpP8BnewYKI1n2chQrrR4EYiJKbUG">Curso
+                                            de
+                                            Laravel - Matheus Battisti - Hora de Coda</a></h6><br>
+                                    <h6 class="card-subtitle">
+                                        <img id="img_width_height" src="components/img/habilidades/github.png"
+                                            class="card-img mx-auto" alt="icone_github"> Repositório: <a
+                                            class="card-link"
+                                            href="https://github.com/Jana-SI/Curso-de-Laravel_HDC-Eventos">clique
+                                            aqui</a>
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
             <!-- em breve -->
             <div class="col" id="card">
                 <div class="card text-center d-flex align-items-center justify-content-center">

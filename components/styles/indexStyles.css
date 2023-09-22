@@ -18,6 +18,12 @@ html, body{
   
 }
 
+@media (max-width: 340px) {
+    h1, p, #CV a, #CL a{
+        font-size: 8vw !important;
+    }
+}
+
 h1{
     text-align: center;
     font-size:50px;
