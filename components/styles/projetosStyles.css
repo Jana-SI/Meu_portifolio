@@ -1,12 +1,11 @@
 @import url("cores.css");
 @import url("fonts.css");
 
-/* #cards{
-    margin: 16px;
-    padding: 16px;
-} */
-
 @media (max-width: 767px) {
+    #cards {
+        margin: 16px;
+    }
+
     #cards img {
         margin: 5px;
     }

@@ -1,6 +1,12 @@
 @import url("cores.css");
 @import url("fonts.css");
 
+@media (max-width: 767px) {
+    #habilidades {
+        margin: 16px;
+    }
+}
+
 #habilidades .card{
     width: 160px;
     height: 160px;
