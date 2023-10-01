@@ -1,10 +1,10 @@
 @import url("cores.css");
 @import url("fonts.css");
 
-#cards{
+/* #cards{
     margin: 16px;
     padding: 16px;
-}
+} */
 
 #cards .card, #cards .modal-content {
     background-color: var(--cor_Titulo);

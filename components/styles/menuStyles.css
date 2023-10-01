@@ -57,17 +57,5 @@ li a:hover, li a:active{
 
 #imgMenu{
     width: 100px;
-    animation-name: colorirImg;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes colorirImg {
-    0% {
-        filter: drop-shadow(2px 2px 2px var(--cor_Texto));
-    }
-
-    100% {
-        filter: drop-shadow(2px 2px 2px var(--cor_Titulo));
-    }
+    filter: drop-shadow(2px 2px 2px var(--cor_Texto));
 }
