@@ -6,6 +6,12 @@
     padding: 16px;
 } */
 
+@media (max-width: 767px) {
+    #cards img {
+        margin: 5px;
+    }
+}
+
 #cards .card, #cards .modal-content {
     background-color: var(--cor_Titulo);
     color: var(--cor_Fundo);

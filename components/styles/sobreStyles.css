@@ -1,13 +1,20 @@
 @import url("cores.css");
 @import url("fonts.css");
 
-.iconSobre{
+@media (max-width: 767px) {
+    #sobreMim {
+        margin: 16px;
+    }
+}
+
+.iconSobre {
     color: var(--cor_Fundo);
 }
 
-#imgSobre{
+#imgSobre {
     width: calc(150px + (300 - 150) * ((100vw - 300px) / (1600 - 300)));
-    height: calc(150px + (300 - 150px) * ((100vw - 300px) / (1600 - 300)));animation-name: colorirImg;
+    height: calc(150px + (300 - 150px) * ((100vw - 300px) / (1600 - 300)));
+    animation-name: colorirImg;
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
@@ -23,12 +30,12 @@
 }
 
 @media (max-width: 576px) {
-    #imgSobre{
+    #imgSobre {
         padding-top: 10px;
     }
 }
 
-.card{
+.card {
     background-color: var(--cor_Titulo);
     color: var(--cor_Fundo);
     border-radius: 12px;
