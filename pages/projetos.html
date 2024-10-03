@@ -4,68 +4,78 @@
 <head>
     <script type="text/javascript" src="components/scripts/ampulheta_a.js"></script>
     <!--icon-->
-    <link rel="icon" type="image/x-icon" href="components/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="components/img/favicon.ico" />
 </head>
 
 <body>
     <div class="col-12 col-sm-12 col-md-12 col-lg-12" id="cards">
         <h1>Projetos</h1>
-        <div class="row row-cols-1 row-col-sm-2 row-cols-md-4 row-col-lg-4 row-col-xl-4 row-col-xxl-4 g-4">
+        <div class="row row-cols-1 row-col-sm-2 row-cols-md-4 row-col-lg-5 row-col-xl-6 row-col-xxl-6 g-4">
             <!-- PetLovers -->
             <div class="col">
                 <div class="card">
                     <div class="card-header">
                         <h5 class="card-title">🐱Pet Lovers CRUD🐶</h5>
                     </div>
-                    <img src="components/img/projetos/printPetLovers.png" alt="print_pet_lovers_crud">
+                    <img src="components/img/projetos/printPetLovers.png" alt="print_pet_lovers_crud" />
                     <div class="card-footer">
                         <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#PetLoversCRUD">
                             <span class="fas fa-expand"></span> Ver Mais
                         </button>
                     </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="PetLoversCRUD" tabindex="-1" aria-labelledby="PetLoversCRUDLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-                            <div class="modal-content">
-                                <!-- Conteúdo do modal -->
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="PetLoversCRUDLabel">🐱Pet Lovers CRUD🐶</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="components/img/projetos/printPetLovers.png" class="card-img"
-                                        alt="print_pet_lovers_crud">
+                </div>
+
+                <!-- modal PetLovers -->
+                <div class="modal fade" id="PetLoversCRUD" tabindex="-1" aria-labelledby="PetLoversCRUDLabel"
+                    aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="PetLoversCRUDLabel">
+                                    🐱Pet Lovers CRUD🐶
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="card mb-3">
+                                    <img src="components/img/projetos/printPetLovers.png" alt="print_pet_lovers_crud"
+                                        class="card-img-top" />
+
                                     <div class="card-body">
-                                        <p class="card-text">Projeto web para uma petshop desenvolvido em Flask</p>
+                                        <p class="card-text">
+                                            Projeto web para uma petshop desenvolvido em Flask
+                                        </p>
+
                                         <h5 class="card-title">Seções</h5>
 
-                                        <p class="card-text text-left">O site é composto por 3 seções:</p>
+                                        <p class="card-text">O site é composto por 3 seções:</p>
 
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">👤 Clientes: cadastrar, listar, pesquisar
-                                                cliente
-                                                especifico,
-                                                deletar e atualizar (nome e telefone do cliente pesquisado);</li>
+                                            <li class="list-group-item">
+                                                👤 Clientes: cadastrar, listar, pesquisar cliente
+                                                especifico, deletar e atualizar (nome e telefone do
+                                                cliente pesquisado);
+                                            </li>
 
-                                            <li class="list-group-item">🐰 Pets: cadastrar, listar, pesquisar pet
-                                                especifico,
-                                                deletar,
-                                                atualizar (nome, tipo, raça e data de nascimento do cliente pesquisado)
-                                                e associar a
-                                                mais um dono;</li>
+                                            <li class="list-group-item">
+                                                🐰 Pets: cadastrar, listar, pesquisar pet especifico,
+                                                deletar, atualizar (nome, tipo, raça e data de
+                                                nascimento do cliente pesquisado) e associar a mais um
+                                                dono;
+                                            </li>
 
-                                            <li class="list-group-item">🩺 Consulta: agendar, listar, pesquisar
-                                                historico de
-                                                consultas
-                                                do pet, consultas do dia, proximas consultas, historico total de
-                                                consultas, deletar
-                                                e
-                                                atualizar (data e hora das próximas consultas).</li>
+                                            <li class="list-group-item">
+                                                🩺 Consulta: agendar, listar, pesquisar historico de
+                                                consultas do pet, consultas do dia, proximas
+                                                consultas, historico total de consultas, deletar e
+                                                atualizar (data e hora das próximas consultas).
+                                            </li>
                                         </ul>
 
-                                        <p class="card-text">Tecnologias utilizadas neste site:</p>
+                                        <p class="card-text">
+                                            Tecnologias utilizadas neste site:
+                                        </p>
                                         <div class="text-center">
                                             <img
                                                 src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -83,17 +93,17 @@
                                             <img
                                                 src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
                                         </div>
-
                                     </div>
                                 </div>
-                                <div class="modal-footer">
-                                    <h6 class="card-subtitle">
-                                        <img id="img_width_height" src="components/img/habilidades/github.png"
-                                            class="card-img mx-auto" alt="icone_github"> Repositório: <a
-                                            class="card-link" href="https://github.com/Jana-SI/pet_lovers_crud">clique
-                                            aqui</a>
-                                    </h6>
-                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <h6 class="card-subtitle">
+                                    <img id="img_width_height" src="components/img/habilidades/github.png"
+                                        class="card-img mx-auto" alt="icone_github" />
+                                    Repositório:
+                                    <a class="card-link" href="https://github.com/Jana-SI/pet_lovers_crud"
+                                        target="_blank">clique aqui</a>
+                                </h6>
                             </div>
                         </div>
                     </div>
@@ -104,72 +114,76 @@
             <div class="col">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="card-title">🪙 Projeto Costs<br>Curso React react <img
+                        <h5 class="card-title">
+                            🪙 Projeto Costs<br />Curso React react
+                            <img
                                 src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
                         </h5>
                     </div>
-                    <img src="components/img/projetos/printCost.png" alt="print_cost">
+                    <img src="components/img/projetos/printCost.png" alt="print_cost" />
                     <div class="card-footer">
                         <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#Cost">
                             <span class="fas fa-expand"></span> Ver Mais
                         </button>
                     </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="Cost" tabindex="-1" aria-labelledby="CostLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-                            <div class="modal-content">
-                                <!-- Conteúdo do modal -->
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="CostLabel">🪙 Projeto Costs<br>Curso React react <img
-                                            src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-                                    </h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="components/img/projetos/printCost.png" class="card-img" alt="print_cost">
+                </div>
+
+                <div class="modal fade" id="Cost" tabindex="-1" aria-labelledby="CostLabel" aria-hidden="true"
+                    data-bs-backdrop="static" data-bs-keyboard="false">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="CostLabel">
+                                    🪙 Projeto Costs<br />Curso React react
+                                    <img
+                                        src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="card mb-3">
+                                    <img src="components/img/projetos/printCost.png" class="card-img-top"
+                                        alt="print_cost" />
                                     <div class="card-body">
-                                        <p class="card-text">Projeto desenvolvido durante as aulas do curso de react
+                                        <p class="card-text">
+                                            Projeto desenvolvido durante as aulas do curso de react
                                             (aula 16.5 ate 37)
                                         </p>
-
                                         <h5 class="card-title">É composto por 2 secões:</h5>
-                                        <hr>
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">🏠 Home: tela de boas vindas, criar projeto;
+                                            <li class="list-group-item">
+                                                🏠 Home: tela de boas vindas, criar projeto;
                                             </li>
 
-                                            <li class="list-group-item">⚒️ Projetos: exibir meus projetos, criar
-                                                projeto, editar
-                                                projeto
-                                                e excluir projeto;
+                                            <li class="list-group-item">
+                                                ⚒️ Projetos: exibir meus projetos, criar projeto,
+                                                editar projeto e excluir projeto;
 
                                                 <div class="ms-2 me-auto">
-                                                    ✏️ Editar projeto: exibir detalhes do projeto (categoria,
-                                                    total de orçamento, total utilizado, restante do orçamento),
-                                                    editar projeto,
-                                                    adicionar serviços, exibir serviços (nome do serviço, custo
-                                                    total e a descrição)
-                                                    e
-                                                    excluir serviço;
+                                                    ✏️ Editar projeto: exibir detalhes do projeto
+                                                    (categoria, total de orçamento, total utilizado,
+                                                    restante do orçamento), editar projeto, adicionar
+                                                    serviços, exibir serviços (nome do serviço, custo
+                                                    total e a descrição) e excluir serviço;
                                                 </div>
-
                                             </li>
 
-                                            <li class="list-group-item">🏢 Empresa e 📞 Contato: criados para testar
-                                                funcionalidade
-                                                dos
-                                                routes.</li>
+                                            <li class="list-group-item">
+                                                🏢 Empresa e 📞 Contato: criados para testar
+                                                funcionalidade dos routes.
+                                            </li>
                                         </ul>
 
                                         <h5 class="card-title">⚙️ Rodar projeto</h5>
-                                        <hr>
                                         <ul class="list-group list-group-flush">
                                             <li class="list-group-item">npm start</li>
                                             <li class="list-group-item">npm run backend</li>
                                         </ul>
 
-                                        <p class="card-text">Tecnologias utilizadas neste site:</p>
+                                        <p class="card-text">
+                                            Tecnologias utilizadas neste site:
+                                        </p>
                                         <div class="text-center">
                                             <img
                                                 src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -180,18 +194,22 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="modal-footer">
-                                    <h6 class="card-subtitle">💻 Curso: <a class="card-link"
-                                            href="https://www.youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO">Curso
-                                            de
-                                            React - Matheus Battisti - Hora de Coda</a></h6><br>
-                                    <h6 class="card-subtitle">
-                                        <img id="img_width_height" src="components/img/habilidades/github.png"
-                                            class="card-img mx-auto" alt="icone_github"> Repositório: <a
-                                            class="card-link"
-                                            href="https://github.com/Jana-SI/costs_projeto_curso_react">clique aqui</a>
-                                    </h6>
-                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <h6 class="card-subtitle">
+                                    💻 Curso:
+                                    <a class="card-link"
+                                        href="https://www.youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO"
+                                        target="_blank">Curso de React - Matheus Battisti - Hora de Coda</a>
+                                </h6>
+
+                                <h6 class="card-subtitle">
+                                    <img id="img_width_height" src="components/img/habilidades/github.png"
+                                        class="card-img mx-auto" alt="icone_github" />
+                                    Repositório:
+                                    <a class="card-link" href="https://github.com/Jana-SI/costs_projeto_curso_react"
+                                        target="_blank">clique aqui</a>
+                                </h6>
                             </div>
                         </div>
                     </div>
@@ -202,58 +220,63 @@
             <div class="col">
                 <div class="card">
                     <div class="card-header">
-                        <h5 class="card-title">🗓️ HDC Eventos<br>Curso Laravel <img
+                        <h5 class="card-title">
+                            🗓️ HDC Eventos<br />Curso Laravel
+                            <img
                                 src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
                         </h5>
                     </div>
-                    <img src="components/img/projetos/printHDCEventos.jpg" alt="print_HDC_eventos">
+                    <img src="components/img/projetos/printHDCEventos.jpg" alt="print_HDC_eventos" />
                     <div class="card-footer">
-                        <button class="btn btn-primary btn-sm mt-3" data-bs-toggle="modal" data-bs-target="#HDCEVentos">
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#HDCEVentos">
                             <span class="fas fa-expand"></span> Ver Mais
                         </button>
                     </div>
-                    <!-- Modal -->
-                    <div class="modal fade" id="HDCEVentos" tabindex="-1" aria-labelledby="HDCEVentosLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-                            <div class="modal-content">
-                                <!-- Conteúdo do modal -->
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="HDCEVentosLabel">🗓️ HDC Eventos<br>Curso Laravel <img
-                                            src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-                                    </h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
+                </div>
+                <div class="modal fade" id="HDCEVentos" tabindex="-1" aria-labelledby="HDCEVentosLabel"
+                    aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="HDCEVentosLabel">
+                                    🗓️ HDC Eventos<br />Curso Laravel
+                                    <img
+                                        src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="card">
                                     <img src="components/img/projetos/printHDCEventos.jpg" alt="print_HDC_eventos"
-                                        class="card-img">
+                                        class="card-img-top" />
                                     <div class="card-body">
-                                        <p class="card-text">Projeto desenvolvido durante as aulas do curso de laravel
-                                            (aula 13 até 31)
+                                        <p class="card-text">
+                                            Projeto desenvolvido durante as aulas do curso de
+                                            laravel (aula 13 até 31)
                                         </p>
                                         <h5 class="card-title">É composto por 3 secões:</h5>
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">🗓️ Eventos: busca de eventos, exibe próximos
-                                                eventos;</li>
+                                            <li class="list-group-item">
+                                                🗓️ Eventos: busca de eventos, exibe próximos eventos;
+                                            </li>
 
                                             <li class="list-group-item">
                                                 📝 Criar Eventos: se estiver logado, cria eventos;
                                             </li>
 
-                                            <li class="list-group-item">🗒️ Meus Eventos: exibe 2 tabelas:
+                                            <li class="list-group-item">
+                                                🗒️ Meus Eventos: exibe 2 tabelas:
 
                                                 <div class="ms-2 me-auto">
-
-                                                    Na primeira lista os eventos organizados pelo usuário, podendo
-                                                    editar e deletar;
+                                                    Na primeira lista os eventos organizados pelo
+                                                    usuário, podendo editar e deletar;
                                                 </div>
                                                 <div class="ms-2 me-auto">
-                                                    Na segunda os eventos que o usuário está como participante, podendo
-                                                    apenas
-                                                    acompanhar e sair do evento.
+                                                    Na segunda os eventos que o usuário está como
+                                                    participante, podendo apenas acompanhar e sair do
+                                                    evento.
                                                 </div>
-
                                             </li>
                                         </ul>
                                         <h5 class="card-title">⚙️ Rodar projeto</h5>
@@ -264,97 +287,114 @@
                                             <li class="list-group-item">xampp</li>
                                         </ul>
 
-                                        <p class="card-text">Tecnologias utilizadas neste site:</p>
+                                        <p class="card-text">
+                                            Tecnologias utilizadas neste site:
+                                        </p>
                                         <div class="text-center">
                                             <img
                                                 src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
                                             <img
                                                 src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
                                             <img
-                                                src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
+                                                src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
                                             <img
                                                 src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
                                             <img
                                                 src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
                                             <img
-                                                src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white">
+                                                src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />
                                         </div>
                                     </div>
                                 </div>
-                                <div class="modal-footer">
-                                    <h6 class="card-subtitle">💻 Curso: <a class="card-link"
-                                            href="https://www.youtube.com/playlist?list=PLnDvRpP8BnewYKI1n2chQrrR4EYiJKbUG">Curso
-                                            de
-                                            Laravel - Matheus Battisti - Hora de Coda</a></h6><br>
-                                    <h6 class="card-subtitle">
-                                        <img id="img_width_height" src="components/img/habilidades/github.png"
-                                            class="card-img mx-auto" alt="icone_github"> Repositório: <a
-                                            class="card-link"
-                                            href="https://github.com/Jana-SI/Curso-de-Laravel_HDC-Eventos">clique
-                                            aqui</a>
-                                    </h6>
-                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <h6 class="card-subtitle">
+                                    💻 Curso:
+                                    <a class="card-link"
+                                        href="https://www.youtube.com/playlist?list=PLnDvRpP8BnewYKI1n2chQrrR4EYiJKbUG"
+                                        target="_blank">Curso de Laravel - Matheus Battisti - Hora de Coda</a>
+                                </h6>
+                                <h6 class="card-subtitle">
+                                    <img id="img_width_height" src="components/img/habilidades/github.png"
+                                        class="card-img mx-auto" alt="icone_github" />
+                                    Repositório:
+                                    <a class="card-link" href="https://github.com/Jana-SI/Curso-de-Laravel_HDC-Eventos"
+                                        target="_blank">clique aqui</a>
+                                </h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <!-- Calendário -->
             <div class="col">
                 <div class="card">
                     <div class="card-header">
                         <h5 class="card-title">🇧🇷 Calendário mensal por estado 🇧🇷</h5>
                     </div>
                     <img src="components/img/projetos/Screenshot_Calendario_mensal_por_estado.png"
-                        alt="print_Calendario_mensal_por_estado">
+                        alt="print_Calendario_mensal_por_estado" />
                     <div class="card-footer">
-                        <button class="btn btn-primary btn-sm mt-3" data-bs-toggle="modal"
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal"
                             data-bs-target="#CalendarioMensalEstado">
                             <span class="fas fa-expand"></span> Ver Mais
                         </button>
                     </div>
-
-                    <!-- Modal -->
-                    <div class="modal fade" id="CalendarioMensalEstado" tabindex="-1"
-                        aria-labelledby="CalendarioMensalEstadoLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="CalendarioMensalEstadoLabel">🇧🇷 Calendário mensal por
-                                        estado 🇧🇷</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img src="/components/img/projetos/Screenshot_Calendario_mensal_por_estado.png"
-                                        alt="print_Calendario_mensal_por_estado" class="card-img">
+                </div>
+                <div class="modal fade" id="CalendarioMensalEstado" tabindex="-1"
+                    aria-labelledby="CalendarioMensalEstadoLabel" aria-hidden="true" data-bs-backdrop="static"
+                    data-bs-keyboard="false">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="CalendarioMensalEstadoLabel">
+                                    🇧🇷 Calendário mensal por estado 🇧🇷
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="card">
+                                    <img src="components/img/projetos/Screenshot_Calendario_mensal_por_estado.png"
+                                        alt="print_Calendario_mensal_por_estado" class="card-img-top" />
                                     <div class="card-body">
-                                        <p class="card-text">Projeto web de um calendário mensal por estados brasileiros.
+                                        <p class="card-text">
+                                            Projeto web de um calendário mensal por estados
+                                            brasileiros.
                                         </p>
 
                                         <h5 class="card-title">Seções</h5>
 
-                                        <p class="card-text text-left">O site é composto por uma seção:</p>
+                                        <p class="card-text text-left">
+                                            O site é composto por uma seção:
+                                        </p>
 
                                         <ul class="list-group list-group-flush">
-                                            <li class="list-group-item">🏠 Home:
+                                            <li class="list-group-item">
+                                                🏠 Home:
                                                 <ul class="list-group list-group-flush">
-                                                    <li class="list-group-item">Select 1 de estados utilizando API de
-                                                        estados do IBGE;</li>
-                                                    <li class="list-group-item">Select 2 de meses utilizando JavaScript;
+                                                    <li class="list-group-item">
+                                                        Select 1 de estados utilizando API de estados do
+                                                        IBGE;
                                                     </li>
-                                                    <li class="list-group-item">Após selecionar estado e mês, exibe-se um
-                                                        calendário e uma lista, com feriados nacionais utilizando a API
-                                                        Nager
-                                                        Date e estaduais por estado selecionado, estações do ano, fases da
-                                                        lua,
-                                                        utilizando JSON;</li>
+                                                    <li class="list-group-item">
+                                                        Select 2 de meses utilizando JavaScript;
+                                                    </li>
+                                                    <li class="list-group-item">
+                                                        Após selecionar estado e mês, exibe-se um
+                                                        calendário e uma lista, com feriados nacionais
+                                                        utilizando a API Nager Date e estaduais por estado
+                                                        selecionado, estações do ano, fases da lua,
+                                                        utilizando JSON;
+                                                    </li>
                                                 </ul>
                                             </li>
                                         </ul>
 
-
-                                        <p class="card-text">Tecnologias utilizadas neste site:</p>
+                                        <p class="card-text">
+                                            Tecnologias utilizadas neste site:
+                                        </p>
 
                                         <div class="text-center">
                                             <img
@@ -368,14 +408,152 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="modal-footer">
-                                    <h6 class="card-subtitle">
-                                        <img id="img_width_height" src="components/img/habilidades/github.png"
-                                            class="card-img mx-auto" alt="icone_github"> Repositório: <a class="card-link"
-                                            href="https://github.com/Jana-SI/Calendario">clique
-                                            aqui</a>
-                                    </h6>
+                            </div>
+                            <div class="modal-footer">
+                                <h6 class="card-subtitle">
+                                    <img id="img_width_height" src="components/img/habilidades/github.png"
+                                        class="card-img mx-auto" alt="icone_github" />
+                                    Repositório:
+                                    <a class="card-link" href="https://github.com/Jana-SI/Calendario"
+                                        target="_blank">clique aqui</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- calculadora -->
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">➕➖ Projeto Calculadora ➗✖️🟰</h5>
+                    </div>
+                    <img src="components/img/projetos/projeto_calculadora.png" alt="print_Projeto_Calculadora" />
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                            data-bs-target="#ProjetoCalculadora">
+                            <span class="fas fa-expand"></span> Ver Mais
+                        </button>
+                    </div>
+                </div>
+                <div class="modal fade" id="ProjetoCalculadora" tabindex="-1" aria-labelledby="ProjetoCalculadoraLabel"
+                    aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ProjetoCalculadoraLabel">
+                                    ➕➖ Projeto Calculadora ➗✖️🟰
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="card">
+                                    <img src="components/img/projetos/projeto_calculadora.png"
+                                        alt="print_Projeto_Calculadora" class="card-img-top" />
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Calculadora simples de cálculos soma, subtração,
+                                            multiplicação e divisão.
+                                        </p>
+                                        <h5 class="card-title">⚙️ Rodar projeto</h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Abrir projeto no vscode;</li>
+                                            <li class="list-group-item">
+                                                Utilizar a extensão Live Server;
+                                            </li>
+                                        </ul>
+                                        <p class="card-text">
+                                            💻 Tecnologias utilizadas neste projeto
+                                        </p>
+                                        <div class="text-center">
+                                            <img
+                                                src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+                                            <img
+                                                src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+                                            <img
+                                                src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" />
+                                            <img
+                                                src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+                                        </div>
+                                    </div>
                                 </div>
+                            </div>
+                            <div class="modal-footer">
+                                <h6 class="card-subtitle">
+                                    <img id="img_width_height" src="components/img/habilidades/github.png"
+                                        class="card-img mx-auto" alt="icone_github" />
+                                    Repositório:
+                                    <a class="card-link" href="https://github.com/Jana-SI/Calculadora"
+                                        target="_blank">clique aqui</a>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lista de tarefas -->
+            <div class="col">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">📋 Projeto Lista de Tarefas</h5>
+                    </div>
+                    <img src="components/img/projetos/ProjetoListaTarefas.png" alt="print_Lista_tarefas" />
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#ListaTarefas">
+                            <span class="fas fa-expand"></span> Ver Mais
+                        </button>
+                    </div>
+                </div>
+                <div class="modal fade" id="ListaTarefas" tabindex="-1" aria-labelledby="ListaTarefaLabel"
+                    aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="ListaTarefaLabel">
+                                    📋 Projeto Lista de Tarefas
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="card">
+                                    <img src="components/img/projetos/ProjetoListaTarefas.png" alt="print_Lista_tarefas"
+                                        class="card-img-top" />
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Lista de tarefas onde é possível adicionar, editar e
+                                            deletar itens.
+                                        </p>
+                                        <h5 class="card-title">⚙️ Rodar projeto</h5>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">npm install</li>
+                                            <li class="list-group-item">npm start</li>
+                                        </ul>
+                                        <p class="card-text">
+                                            💻 Tecnologias utilizadas neste projeto
+                                        </p>
+                                        <div class="text-center">
+                                            <img
+                                                src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+                                            <img
+                                                src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+                                            <img
+                                                src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <h6 class="card-subtitle">
+                                    <img id="img_width_height" src="components/img/habilidades/github.png"
+                                        class="card-img mx-auto" alt="icone_github" />
+                                    Repositório:
+                                    <a class="card-link" href="https://github.com/Jana-SI/lista_de_tarefas"
+                                        target="_blank">clique aqui</a>
+                                </h6>
                             </div>
                         </div>
                     </div>

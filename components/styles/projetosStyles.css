@@ -34,6 +34,7 @@
 }
 
 #cards p {
+    padding: 10px;
     font-size: 16px;
 }
 
@@ -58,13 +59,15 @@
 #cards #img_width_height {
     width: 20px;
     height: 20px;
+    border: 0;
+    border-radius: 0;
 }
 
 #cards button{
     background-color: var(--cor_Titulo);
     color: var(--cor_Fundo);
     border-radius: 12px;
-    border: 5px ridge var(--cor_Fundo);
+    border: 2px ridge var(--cor_Fundo);
     font-weight: bold;
 }
 
@@ -72,6 +75,10 @@
     background-color: var(--cor_Texto);
 }
 
-#cards hr{
-    border-bottom: 5px ridge var(--cor_Fundo);   
+#cards .card-img-top, #cards li{
+    border-bottom: 5px ridge var(--cor_Fundo); 
+}
+
+#cards li{
+    border-bottom: 1px ridge var(--cor_Fundo); 
 }
