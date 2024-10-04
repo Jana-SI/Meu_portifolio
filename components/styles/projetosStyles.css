@@ -5,10 +5,6 @@
     #cards {
         margin: 16px;
     }
-
-    #cards img {
-        margin: 5px;
-    }
 }
 
 #cards .card, #cards .modal-content {
@@ -81,4 +77,8 @@
 
 #cards li{
     border-bottom: 1px ridge var(--cor_Fundo); 
+}
+
+#cards .card-img{
+    cursor: pointer;
 }
